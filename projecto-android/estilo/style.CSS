@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@font-face{
+ font-family:"Android";
+ src:url("/fontes/idroid.otf") format("opentype"); font-weight: normal; 
+}
+
+
+:root{
+    ––cor0: #7fffd4
+    ––cor1  #6595ed
+    ––cor2  #0000ff
+    ––cor3  #00008b
+    
+}
+
+body {
+    background-color: #c6d5f1;
+}
+
+header > h1 {
+    color:#00008b ;
+}
+
+nav {
+    background-color:#6595ed;
+    
+}
+header {
+    background-color: #6595ed;
+}
+main {
+    background-color: white;
+}
+
+main h1 {
+    color: rgb(9, 9, 59);
+}
+footer {
+    background-color: #6595ed;
+    color: #0000ff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+img {
+    width: 100%;
+}
